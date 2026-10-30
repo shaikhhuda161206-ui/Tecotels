@@ -1,0 +1,207 @@
+.hotel-details-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 35px 5% 70px;
+  color: #222222;
+}
+
+.back-button {
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  padding: 11px 17px;
+  border-radius: 25px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.back-button:hover {
+  background: #f7f7f7;
+}
+
+.hotel-details-page > h1 {
+  margin: 0 0 10px;
+  font-size: clamp(27px, 4vw, 38px);
+  letter-spacing: -1px;
+}
+
+.details-location {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.details-image {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.details-content {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 45px;
+  padding-top: 30px;
+}
+
+.details-content h2 {
+  font-size: 23px;
+  margin-top: 0;
+}
+
+.details-content p,
+.details-content li {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.details-content h3 {
+  margin-top: 28px;
+}
+
+.details-content ul {
+  padding-left: 20px;
+}
+
+.details-price-card {
+  align-self: start;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 20px #0000000a;
+}
+
+.details-price-card h2 {
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.details-price-card h2 span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.details-price-card > p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.reserve-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 9px;
+  background: #ff385c;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.reserve-button:hover {
+  background: #e31c5f;
+}
+
+@media (max-width: 750px) {
+  .hotel-details-page {
+    padding: 25px 18px 45px;
+  }
+
+  .details-image {
+    height: 280px;
+  }
+
+  .details-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .details-price-card {
+    width: 100%;
+  }
+}
+
+.booking-form {
+  max-width: 520px;
+  margin: 30px auto;
+  padding: 28px;
+  border: 1px solid #dddddd;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px #0000000a;
+  background: #ffffff;
+}
+
+.booking-form h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.booking-form p {
+  color: #666666;
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.booking-form label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.booking-form input,
+.booking-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+.booking-form .reserve-button {
+  margin-top: 25px;
+}
+
+.booking-form .back-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.booking-confirmation {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 35px;
+  border: 1px solid #e5e5e5;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px #0000000a;
+  background: #ffffff;
+  text-align: center;
+}
+
+.booking-confirmation h1 {
+  color: #16803c;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.booking-confirmation h2 {
+  margin-top: 25px;
+  font-size: 22px;
+}
+
+.booking-confirmation p {
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.booking-confirmation .reserve-button {
+  margin-top: 25px;
+}
